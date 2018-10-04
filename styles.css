@@ -3,22 +3,21 @@ make grid display flexbox wrap, set width but not the height */
 body {
     text-align: center;
 }
-
 h1 {
     font-family: sans-serif;
     font-size: 50px;
-
-.cell {
+} 
+h3 {
+    font-family: sans-serif;
+    font-size: 20px;
+}
+#grid{
+    display: flex;
+    flex-wrap: wrap;
+}
+.pixel {
     width: 10px;
     height: 10px;
-    border: 5px;
+    border: 1px solid black;
 }
-.grid {
-    width: 10px;
-    flex-wrap: wrap;
-    border-color: black;
-    border-width: 5px;
-}
-.colorSelector {
-    align-self: center;
-}
+
