@@ -1,0 +1,24 @@
+/* set width and height with border
+make grid display flexbox wrap, set width but not the height */
+body {
+    text-align: center;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: 50px;
+
+.cell {
+    width: 10px;
+    height: 10px;
+    border: 5px;
+}
+.grid {
+    width: 10px;
+    flex-wrap: wrap;
+    border-color: black;
+    border-width: 5px;
+}
+.colorSelector {
+    align-self: center;
+}
